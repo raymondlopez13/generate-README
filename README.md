@@ -4,7 +4,13 @@
 ![Photo of README application](https://github.com/raymondlopez13/generate-README/blob/master/Develop/assets/screenshot.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  
+- [Description](#description)
+- [Usage](#uasge)
+- [Testing](#testing)
+- [About](#about)
+- [Contribute](#contribute)
+- [Questions](#questions)
+- [License](#license)
 ## Description
 This project creates a simple, professional README file using user input from the console. The user is asked a series of questions, their answers are then used to create a README file for them!
   
