@@ -23,7 +23,7 @@ No one can contribute to this repository.
 ## Questions
 If you have any questions, you can contact me:
 Email: raymondlopez13@yahoo.com
-Github: [raymondlopez13](github.com/raymondlopez13)
+Github: raymondlopez13
 
 ## License
 This project is licensed under the terms of MIT.
