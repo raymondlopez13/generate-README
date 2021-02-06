@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -134,33 +135,14 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    const README = `
-    # ${data.projectName}
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-    ## Table of contents
-    * [Description] (#description)
-    * [Usage] (#usage)
-    * [About] (#about)
-    
-    ## Description
-    ${data.description}
-    
-    ## Usage
-    Run ${data.dependencies} to install dependencies.
-    
-    To run the program, type ${data.runTest} into the console.
-    
-    ${data.usingRepo} ${data.contributeToRepo}
-    
-    ## About
-    Email: ${data.email}
-    Github: github.com/${data.github}`;
+    const README = generateMarkdown(data);
 
-    fs.writeFile(`${projectName}-README.md`, README, (err) => {
+    fs.writeFile(`${fileName}-README.md`, README, (err) => {
         if (err) throw err;
         console.log('The file has been saved!');
     })
+    console.log(README);
 }
 
 // TODO: Create a function to initialize app
