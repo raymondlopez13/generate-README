@@ -31,7 +31,11 @@ function generateMarkdown(data) {
   ## Table of contents
   * [Description] (#description)
   * [Usage] (#usage)
+  * [Testing] (#testing)
   * [About] (#about)
+  * [Contribute] (#contribute)
+  * [Questions] (#questions)
+  * [License] (#license)
   
   ## Description
   ${data.description}
@@ -39,18 +43,22 @@ function generateMarkdown(data) {
   ## Usage
   Run ${data.dependencies} to install dependencies.
   
+  ## Testing
   To run the program, type ${data.runTest} into the console.
   
-  About this repo:
+  ## About
   ${data.usingRepo} 
-  
-  Contributing to this repo:
+
+  ## Contribute
   ${data.contributeToRepo}
   
-  ## About
+  ## Questions
+  If you have any questions, you can contact me at:
   Email: ${data.email}
-  Github: github.com/${data.github}`;
-;
+  Github: github.com/${data.github}
+  
+  ## License
+  This project is licensed under the terms of ${data.license}.`;
 }
 
 module.exports = generateMarkdown;
