@@ -41,7 +41,7 @@ function generateMarkdown(data) {
   ${data.description}
   
   ## Usage
-  Run ${data.dependencies} to install dependencies.
+  Use ${data.dependencies} to install dependencies.
   
   ## Testing
   To run the program, type ${data.runTest} into the console.

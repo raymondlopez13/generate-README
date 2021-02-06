@@ -9,7 +9,7 @@
 This project creates a simple, professional README file using user input from the console. The user is asked a series of questions, their answers are then used to create a README file for them!
   
 ## Usage
-Run npm i to install dependencies.
+Use npm i to install dependencies.
 
 ## Testing
 To run the program, type node index into the console.
