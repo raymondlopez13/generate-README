@@ -55,7 +55,7 @@ function generateMarkdown(data) {
   ## Questions
   If you have any questions, you can contact me at:
   Email: ${data.email}
-  Github: github.com/${data.github}
+  Github: [${data.github}](github.com/${data.github})
   
   ## License
   This project is licensed under the terms of ${data.license}.`;
