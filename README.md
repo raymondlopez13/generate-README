@@ -1,7 +1,7 @@
 # generate-README
 
 
-![Photo of README application](https://github.com/raymondlopez13/generate-README/Develop/assets/screenshot.png)
+![Photo of README application](https://github.com/raymondlopez13/generate-README/blob/master/Develop/assets/screenshot.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
